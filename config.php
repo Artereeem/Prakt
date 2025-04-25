@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 // Настройки подключения к базе данных Access
-$dbPath = "F:\OpenServer\domains\DarthAmd\блаблаблаблабла.accdb"; // или .mdb
+$dbPath = "блаблаблаблабла.accdb"; // или .mdb
 
 // // Создание строки подключения
 $connStr = "DRIVER={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=" . realpath($dbPath);
